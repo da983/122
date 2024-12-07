@@ -1,0 +1,161 @@
+Mtk-easy-su 2.1.0
+extracted magisk-boot.sh
+extracted 32/magiskinit
+extracted 64/magiskinit
+extracted 32/mtk-su
+extracted 64/mtk-su
+[0] 
+
+[0] 10
+
+[0] Sat Dec  7 11:42:15 +01 2024
+
+[0] /data/user/0/juniojsv.mtk.easy.su/files:
+total 11K
+drwx------ 2 u0_a189 3.4K 2024-12-07 11:42 32
+drwx------ 2 u0_a189 3.4K 2024-12-07 11:42 64
+-rw------- 1 u0_a189  565 2024-12-07 11:41 PersistedInstallation.W0RFRkFVTFRd+MTo2OTczNzY1NDAxNDphbmRyb2lkOjIzZGMwMWQyYTRjOWQzYmY2ZjI3YWY.json
+-rw------- 1 u0_a189   69 2024-12-07 11:41 aware_learning_data
+-rw------- 1 u0_a189    0 2024-12-07 11:41 generatefid.lock
+-rw------- 1 u0_a189   30 2024-12-07 11:41 hw_cached_resid.list
+-r-x--x--- 1 u0_a189 2.8K 2024-12-07 11:42 magisk-boot.sh
+
+/data/user/0/juniojsv.mtk.easy.su/files/32:
+total 218K
+-r-x--x--- 1 u0_a189 373K 2024-12-07 11:42 magiskinit
+-r-x--x--- 1 u0_a189  59K 2024-12-07 11:42 mtk-su
+
+/data/user/0/juniojsv.mtk.easy.su/files/64:
+total 230K
+-r-x--x--- 1 u0_a189 393K 2024-12-07 11:42 magiskinit
+-r-x--x--- 1 u0_a189  64K 2024-12-07 11:42 mtk-su
+
+[0] Processor	: AArch64 Processor rev 2 (aarch64)
+processor	: 0
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 4
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 5
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 6
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 7
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+Hardware	: Hisilicon Kirin710
+
+[0] MemTotal:        3768224 kB
+MemFree:           76256 kB
+MemAvailable:     885124 kB
+Buffers:            1692 kB
+Cached:          1033960 kB
+SwapCached:        24024 kB
+Active:          1075076 kB
+Inactive:         933520 kB
+Active(anon):     804472 kB
+Inactive(anon):   296324 kB
+Active(file):     270604 kB
+Inactive(file):   637196 kB
+Unevictable:      102740 kB
+Mlocked:          102740 kB
+SwapTotal:       2293756 kB
+SwapFree:         516760 kB
+Dirty:             17564 kB
+Writeback:            16 kB
+AnonPages:       1072180 kB
+Mapped:           536476 kB
+Shmem:             25220 kB
+Slab:             296636 kB
+SReclaimable:      96220 kB
+SUnreclaim:       200416 kB
+KernelStack:       70832 kB
+PageTables:       100504 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4177868 kB
+Committed_AS:   105674356 kB
+VmallocTotal:   263061440 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+CmaTotal:         458752 kB
+CmaFree:             152 kB
+IonTotalCache:       384 kB
+IonTotalUsed:     178856 kB
+RsvTotalUsed:     276484 kB
+
+[0] 		total        used        free      shared     buffers
+Mem:       3858661376  3779702784    78958592    25825280     1736704
+-/+ buffers/cache:     3777966080    80695296
+Swap:      2348806144  1819934720   528871424
+
+[1] cat: /proc/version: Permission denied
+
+[1] /data/user/0/juniojsv.mtk.easy.su/files/magisk-boot.sh[124]: ./mtk-su: Permission denied
+
+deleted magisk-boot.sh
+deleted 32/magiskinit
+deleted 64/magiskinit
+deleted 32/mtk-su
+deleted 64/mtk-su
